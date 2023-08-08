@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">乐播投屏</string>
+    <string name="app_id">Your AppID</string>
+    <string name="app_secret">Your AppSecret</string>
+</resources>
