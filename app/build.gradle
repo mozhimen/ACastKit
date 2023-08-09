@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.mozhimen.pushk_lebo_cast_test'
+    namespace 'com.mozhimen.pushk_cast_lebo_test'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.mozhimen.pushk_lebo_cast_test"
+        applicationId "com.mozhimen.pushk_cast_lebo_test"
         minSdk 24
         targetSdk 33
         versionCode 1

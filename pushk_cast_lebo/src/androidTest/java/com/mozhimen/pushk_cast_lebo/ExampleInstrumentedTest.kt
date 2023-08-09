@@ -1,4 +1,4 @@
-package com.mozhimen.pushk_lebo_cast
+package com.mozhimen.pushk_cast_lebo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

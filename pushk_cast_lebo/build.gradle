@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.mozhimen.pushk_lebo_cast'
+    namespace 'com.mozhimen.pushk_cast_lebo'
     compileSdk 33
 
     defaultConfig {

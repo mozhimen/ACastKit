@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PushKit_Lebo_Cast"
+rootProject.name = "PushKit_Cast_Lebo"
 include ':app'
-include ':pushk_lebo_cast'
+include ':pushk_cast_lebo'

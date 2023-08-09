@@ -1,4 +1,4 @@
-package com.mozhimen.pushk_lebo_cast
+package com.mozhimen.pushk_cast_lebo
 
 import android.content.Context
 import com.hpplay.sdk.source.api.LelinkSourceSDK
@@ -12,7 +12,7 @@ import com.mozhimen.basick.utilk.android.content.UtilKRes
  * @Date 2023/8/8 23:42
  * @Version 1.0
  */
-class PushKLeboCast {
+class PushKCastLebo {
 
     companion object {
         val instance = INSTANCE.holder
@@ -20,18 +20,17 @@ class PushKLeboCast {
 
     /////////////////////////////////////////////////////////////////
 
-    @OptInApiInit_InApplication
-    fun init(context: Context) {
-        LelinkSourceSDK.getInstance()
-            //FIXME WARN: 这里替换为您申请的AppID & AppSecret，build.gradle替换为您的应用包名
-            .setSdkInitInfo(context, UtilKRes.getString(R.string.app_id), getString(R.string.app_secret))
-            .easyPush(mBrowseContainer);
-
-    }
+//    @OptInApiInit_InApplication
+//    fun init(context: Context) {
+//        LelinkSourceSDK.getInstance()
+//            //FIXME WARN: 这里替换为您申请的AppID & AppSecret，build.gradle替换为您的应用包名
+//            .setSdkInitInfo(context, UtilKRes.getString(R.string.app_id), getString(R.string.app_secret))
+//            .easyPush(mBrowseContainer);
+//    }
 
     /////////////////////////////////////////////////////////////////
 
     private object INSTANCE {
-        val holder = PushKLeboCast()
+        val holder = PushKCastLebo()
     }
 }

@@ -1,4 +1,4 @@
-package com.mozhimen.pushk_lebo_cast_test
+package com.mozhimen.pushk_cast_lebo_test
 
 import org.junit.Test
 
