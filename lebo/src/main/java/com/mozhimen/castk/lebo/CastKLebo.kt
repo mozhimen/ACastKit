@@ -12,7 +12,7 @@ import com.mozhimen.basick.utilk.android.content.UtilKRes
  * @Date 2023/8/8 23:42
  * @Version 1.0
  */
-class PushKCastLebo {
+class CastKLebo {
 
     companion object {
         val instance = INSTANCE.holder
